@@ -1,10 +1,7 @@
 Android
 PlayerPath?
-D:/kpu_unity/KPU-LeeDJ_ParkBN_YuHS/UnityProject/hamburger.apk
+D:/kpu_unity/KPU-LeeDJ_ParkBN_YuHS/apk/test.apk
 SceneListBegin?
-Assets/SamplesResources/Scenes/0-Splash.unity
-Assets/SamplesResources/Scenes/1-Menu.unity
-Assets/SamplesResources/Scenes/2-Loading.unity
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
@@ -258,7 +255,7 @@ ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networki
 c419257ca9a73c550a7b7c65f67deb6a Assembly-CSharp.dll:Lean.Touch.LeanDragCamera
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.DefaultTrackableEventHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.AmbientLightManager
-30253c358d6d78af18720d4968fb2bc1 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
+35a9693c388776aaf487636491a20f11 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e1300922cc039f41ab46a47f4cb05898 Unity.TextMeshPro.dll:TMPro.TMP_Settings
 3e4e4fbe42765fe496c9a3bee4b21e65 Assembly-CSharp.dll:.MaterialSwitch
 e84755f7952ac5dcdc41bd3cd32810fc Assembly-CSharp.dll:.ModelTargetsUIManager
