@@ -1,0 +1,10 @@
+
+path(경로)설정은 각자 지정된 위치에 있는 이미지 path(경로) 사용
+
+* 이외 라이브러리 버전 주의
+  1. numpy 1.16.2
+  2. CUDA => NVIDIA GPU 버젼 10.0 사용 
+      : 설치법 홈페이지 참고 아래 URL
+        https://developer.nvidia.com/cuda-10.0-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
+
+
