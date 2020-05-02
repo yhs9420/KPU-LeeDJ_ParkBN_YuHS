@@ -15,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="1XOel9c4OZG8xUwcLGkkdhNBjzJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,7 +28,49 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.mnist_cnn_test">
+  <component name="RunManager" selected="Python.test">
+    <configuration name="food_classify_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/food_classify_run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="freeze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/freeze.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="mnist_cnn" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="exproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,6 +113,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="model_interpreter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="exproject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_interpreter.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="exproject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,8 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mnist_cnn_test" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.food_classify_run" />
+        <item itemvalue="Python.freeze" />
+        <item itemvalue="Python.model_interpreter" />
+        <item itemvalue="Python.mnist_cnn_test" />
       </list>
     </recent_temporary>
   </component>
@@ -125,37 +191,37 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="444" y="218" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1581600416912" />
-    <state x="433" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581604517304">
+    <state x="433" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588367458311">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="433" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1581604517304" />
+    <state x="433" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1588367458311" />
     <state x="726" y="256" key="FileChooserDialogImpl" timestamp="1581585495321">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="726" y="256" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581585495321" />
-    <state width="1364" height="198" key="GridCell.Tab.0.bottom" timestamp="1581624548033">
+    <state width="1364" height="198" key="GridCell.Tab.0.bottom" timestamp="1588367517184">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1364" height="198" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581624548033" />
-    <state width="1364" height="198" key="GridCell.Tab.0.center" timestamp="1581624548033">
+    <state width="1364" height="198" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1588367517184" />
+    <state width="1364" height="198" key="GridCell.Tab.0.center" timestamp="1588367517184">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1364" height="198" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581624548033" />
-    <state width="1364" height="198" key="GridCell.Tab.0.left" timestamp="1581624548033">
+    <state width="1364" height="198" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1588367517184" />
+    <state width="1364" height="198" key="GridCell.Tab.0.left" timestamp="1588367517184">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1364" height="198" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581624548033" />
-    <state width="1364" height="198" key="GridCell.Tab.0.right" timestamp="1581624548033">
+    <state width="1364" height="198" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1588367517184" />
+    <state width="1364" height="198" key="GridCell.Tab.0.right" timestamp="1588367517184">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1364" height="198" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581624548033" />
+    <state width="1364" height="198" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1588367517184" />
     <state x="277" y="60" key="SettingsEditor" timestamp="1581587571261">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="60" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581587571261" />
-    <state x="470" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1581624288555">
+    <state x="470" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1588366940048">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="470" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1581624288555" />
+    <state x="470" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1588366940048" />
   </component>
 </project>
