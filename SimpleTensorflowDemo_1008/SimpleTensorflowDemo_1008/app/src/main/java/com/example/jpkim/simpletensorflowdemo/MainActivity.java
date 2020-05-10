@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private static final String INPUT_NAME = "Mul";
     private static final String OUTPUT_NAME = "final_result";
 
-    private static final String MODEL_FILE = "file:///android_asset/rounded_graph.pb";
+    private static final String MODEL_FILE = "file:///android_asset/graph.pb";
     private static final String LABEL_FILE =
-            "file:///android_asset/retrained_labels.txt";
+            "file:///android_asset/labels.txt";
 
     private Classifier classifier;
     private Executor executor = Executors.newSingleThreadExecutor();
@@ -272,7 +272,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // which provides various methods to parse the result,
         // but I'm going to show raw result here.
         final List<Classifier.Recognition> results = classifier.recognizeImage(bitmap);
-        imgResult.setImageBitmap(bitmap);
+        final Bitmap finalBitmap = bitmap;
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                imgResult.setImageBitmap(finalBitmap);
+            }
+        });
         txtResult.setText(results.toString());
     }
 }
