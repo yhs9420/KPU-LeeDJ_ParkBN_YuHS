@@ -1,5 +1,14 @@
+[표준 명령어]
 ALTER TABLE `TABLENAME` AUTO_INCREMENT=1;
 
 SET @CNT = 0;
 
 UPDATE `TABLENAME` SET `TABLENAME`.`COLUMNNAME` = @CNT:=@CNT+1; 
+
+
+[혼쿡 테이블]
+ALTER TABLE `Recipe` AUTO_INCREMENT=1;
+
+SET @CNT = 0;
+
+UPDATE `Recipe` SET `Recipe`.`recipe_id` = @CNT:=@CNT+1; 
