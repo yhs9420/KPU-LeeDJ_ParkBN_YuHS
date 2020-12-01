@@ -8,6 +8,7 @@ Object Detection을 이용한 식재료 인식 및 응용 애플리케이션 개
 - RAM : 3GB
 - Display : 2560 x 1440
 <br>
+
 ## 2. SW 개발환경
 - Server : Apache Tomcat(ver. 8.5.34)
 - DBMS : MySQL(ver. 8.0.12)
