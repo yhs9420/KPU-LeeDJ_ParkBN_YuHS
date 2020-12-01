@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/homeItem"
+        android:icon="@drawable/homeicon"
+        android:title="홈"
+        android:enabled="true"
+        android:checked="true"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/cameraItem"
+        android:icon="@drawable/camera"
+        android:title="카메라"
+        android:enabled="true"
+        android:checked="true"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/addItem"
+        android:icon="@drawable/add"
+        android:title="추가"
+        android:enabled="true"
+        android:checked="true"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/shareItem"
+        android:icon="@drawable/community"
+        android:title="커뮤니티"
+        android:enabled="true"
+        android:checked="true"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/mypageItem"
+        android:icon="@drawable/mypage"
+        android:title="내 정보"
+        android:enabled="true"
+        android:checked="true"
+        app:showAsAction="ifRoom"/>
+
+</menu>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#039BE5</color>
+    <color name="colorPrimaryDark">#0277BD</color>
+    <color name="colorAccent">#2478FF</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#909090</color>
+    <color name="colorG">#EDEDED</color>
+    <color name="colorDivider">#C2C0C0</color>
+    <color name="colorButton">#00b2ed</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlack2">#3B3B3B</color>
+
+    <drawable name = "focused">#909090</drawable>
+    <drawable name = "selected">#909090</drawable>
+    <color name="control_background">#cc4285f4</color>
+</resources>

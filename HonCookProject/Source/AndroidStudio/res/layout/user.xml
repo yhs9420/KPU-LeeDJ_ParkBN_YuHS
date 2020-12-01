@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/userListBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.2"
+            android:background="@drawable/buttonshape"
+            android:text="삭제"
+            android:textColor="@color/colorWhite"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <View
+            style="@style/loginDivider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorDivider" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.25"
+            android:orientation="vertical"
+            android:paddingLeft="0dp"
+            android:paddingTop="10dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="10dp">
+
+            <View
+                style="@style/loginDivider"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorDivider" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="아이디"
+                android:textColor="@color/colorBlack2"
+                android:textSize="14sp" />
+
+            <View
+                style="@style/loginDivider"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorDivider" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="비밀번호"
+                android:textColor="@color/colorBlack2"
+                android:textSize="14sp" />
+
+            <View
+                style="@style/loginDivider"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorDivider" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="이름"
+                android:textColor="@color/colorBlack2"
+                android:textSize="14sp" />
+
+            <View
+                style="@style/loginDivider"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorDivider" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="나이"
+                android:textColor="@color/colorBlack2"
+                android:textSize="14sp" />
+
+            <View
+                style="@style/loginDivider"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorDivider" />
+        </LinearLayout>
+
+        <View
+            style="@style/loginDivider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorDivider" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:paddingLeft="0dp"
+            android:paddingTop="10dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="10dp">
+
+            <View
+                style="@style/loginDivider"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorDivider" />
+
+            <TextView
+                android:id="@+id/userID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="ID"
+                android:textColor="#00a7f5"
+                android:textSize="14sp" />
+
+            <View
+                style="@style/loginDivider"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorDivider" />
+
+            <TextView
+                android:id="@+id/userPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="PASSWORD"
+                android:textColor="#f92a3f"
+                android:textSize="14sp" />
+
+            <View
+                style="@style/loginDivider"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorDivider" />
+
+            <TextView
+                android:id="@+id/userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="NAME"
+                android:textColor="#a902f0"
+                android:textSize="14sp" />
+
+            <View
+                style="@style/loginDivider"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorDivider" />
+
+            <TextView
+                android:id="@+id/userAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="AGE"
+                android:textColor="#00a7f5"
+                android:textSize="14sp" />
+
+            <View
+                style="@style/loginDivider"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorDivider" />
+        </LinearLayout>
+
+        <View
+            style="@style/loginDivider"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorDivider" />
+    </LinearLayout>
+</LinearLayout>
+

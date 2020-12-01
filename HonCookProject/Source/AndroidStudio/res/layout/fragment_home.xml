@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/fragment_child"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/searchRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittext_login"
+                android:ems="10"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="left"
+                android:hint="식재료를 입력해주세요."
+                android:inputType="textPersonName"
+                android:text=""
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="0dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:id="@+id/allRecipe"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/allRecipe2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/homeicon"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/allRecipeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="전체"
+                        android:textColor="@color/colorBlack2"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:id="@+id/allRecipeDivider"
+                        style="@style/Divider2"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:background="@color/colorButton" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/korean"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/korean2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/korean_click"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/koreanRecipeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="한식"
+                        android:textColor="@color/colorBlack2"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:id="@+id/koreanRecipeDivider"
+                        style="@style/Divider2"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:background="@color/colorButton" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/japanese"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/japanese2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/japanese_click"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/japaneseRecipeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="일식"
+                        android:textColor="@color/colorBlack2"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:id="@+id/japaneseRecipeDivider"
+                        style="@style/Divider2"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:background="@color/colorButton" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/chinese"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/chinese2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/chinese_click"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/chineseRecipeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="중식"
+                        android:textColor="@color/colorBlack2"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:id="@+id/chineseRecipeDivider"
+                        style="@style/Divider2"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:background="@color/colorButton" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/western"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="0.2"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/western2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/western_click"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/westernRecipeText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="양식"
+                        android:textColor="@color/colorBlack2"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:id="@+id/westernRecipeDivider"
+                        style="@style/Divider2"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginRight="0dp"
+                        android:background="@color/colorButton" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/Divider"
+                style="@style/Divider"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <!--
+            <ListView
+                android:id="@+id/recipeListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/colorGray"
+                android:dividerHeight="1dp"></ListView>
+    -->
+            <GridView
+                android:id="@+id/recipeGridView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:numColumns="2" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="레시피가 존재하지 않습니다."
+            android:textColor="@color/colorGray"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="left"
+        android:orientation="horizontal"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/recipeImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/homeicon" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recipe_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="recipe_name"
+                android:textColor="@color/colorBlack2"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recipe_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="recipe_category"
+                android:textColor="@color/design_default_color_primary"
+                android:textSize="14sp" />
+            <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipe_ingredient"
+            android:text="recipe_ingredient"
+            android:textSize="15dp"
+            android:textColor="#00a7f5"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/recipe_content"
+            android:text="recipe_content"
+            android:textSize="15dp"
+            android:textColor="#00a7f5"
+            />
+-->
+        </LinearLayout>
+        <!--
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="5dp">
+
+                    <Button
+                        android:id="@+id/detailButton"
+                        android:layout_width="80dp"
+                        android:layout_height="42dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/buttonshape"
+                        android:gravity="center"
+                        android:shadowColor="#A8A8A8"
+                        android:shadowDx="0"
+                        android:shadowDy="0"
+                        android:shadowRadius="5"
+                        android:text="상세보기"
+                        android:textColor="#FFFFFF"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                -->
+    </LinearLayout>
+
+    <View
+        android:id="@+id/Divider"
+        style="@style/Divider"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp" />
+</LinearLayout>
+
