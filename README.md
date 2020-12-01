@@ -1,21 +1,25 @@
-딥러닝, AR을 이용한 식재료 인식, 레시피 공유 애플리케이션
+Object Detection을 이용한 식재료 인식 및 응용 애플리케이션 개발
 ==============================================================
 <br>
 
-## 1. 개발환경
-- 운영체제 : Windows 10
-- 개발언어 : Python 3.7, C#
-- 사용 프레임워크 : Unity, Android 6.0 (Marshmallow) API 23
-- 주요 라이브러리 : Keras (2.3.0), Tensorflow (1.15.0), Unity ARcore, Vuforia, OpenCV
-- 서버 프로세스 : php-7.4.0.
-- DB : MySQL 8.0, Vuforia Target Manager
+## 1. HW 개발환경
+- OS : Android Oreo
+- Processor : 엑시노스 7 Octa
+- RAM : 3GB
+- Display : 2560 x 1440
+<br>
+## 2. SW 개발환경
+- Server : Apache Tomcat(ver. 8.5.34)
+- DBMS : MySQL(ver. 8.0.12)
+- Android IDE : Android Studio(ver. 3.1.4)
+- Deep Learning : Tensorflow(ver. 1.15.0) / Yolo v3
 <br>
 
-## 2. 애플리케이션 정보
+## 3. 애플리케이션 정보
 ### + 기능
-- 사용자 정보 등록 및 입력
-- 레시피 등록 및 정보 확인
-- 식재료 인식 후 가능 레시피 조회
-- 인식된 식재료의 시장물가, 영양정보 등을 AR로 확인
+- 사용자 로그인 및 회원가입
+- 레시피 검색, 추가, 삭제
+- 카메라로 다중의 식재료 인식후 선택된 식재료들로 만들 수있는 레시피 추천
+- 커뮤니티를 통한 사용자 간 레시피정보 공유
 ### + 서비스 화면
 - 준비중
