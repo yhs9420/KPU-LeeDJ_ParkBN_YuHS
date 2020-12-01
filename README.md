@@ -67,15 +67,15 @@ Object Detection을 이용한 식재료 인식 및 응용 애플리케이션
 <br><br>
 
 - 내 레시피 목록에 레시피 추가<br>
-  <img src="https://user-images.githubusercontent.com/39147811/100722082-8a040e80-3403-11eb-8620-bdf0f9fc83dd.jpg" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/39147811/100722086-8bcdd200-3403-11eb-9c42-5bf5b1a908cd.jpg" width="49%"/>
+  <img src="https://user-images.githubusercontent.com/39147811/100722082-8a040e80-3403-11eb-8620-bdf0f9fc83dd.jpg" width="25%"/>
+  <img src="https://user-images.githubusercontent.com/39147811/100722086-8bcdd200-3403-11eb-9c42-5bf5b1a908cd.jpg" width="25%"/>
 </div>
 <br><br>
 
 - 레시피 내용 직접 만들기<br>
 <div>
-  <img src="https://user-images.githubusercontent.com/39147811/100722603-2201f800-3404-11eb-9c4c-9d29f45ddee6.jpg" width="49%"/>
-  <img src="https://user-images.githubusercontent.com/39147811/100722659-2e865080-3404-11eb-990e-184a3dcba106.jpg" width="49%"/>
+  <img src="https://user-images.githubusercontent.com/39147811/100722603-2201f800-3404-11eb-9c4c-9d29f45ddee6.jpg" width="25%"/>
+  <img src="https://user-images.githubusercontent.com/39147811/100722659-2e865080-3404-11eb-990e-184a3dcba106.jpg" width="25%"/>
 </div>
 <br><br>
 
@@ -90,9 +90,9 @@ Object Detection을 이용한 식재료 인식 및 응용 애플리케이션
 
 - 식재료 촬영 및 인식 후 레시피 추천<br>
 <div>
-  <img src="https://user-images.githubusercontent.com/39147811/100723432-182cc480-3405-11eb-928c-13c01cc2e825.png" width="32%"/>
-  <img src="https://user-images.githubusercontent.com/39147811/100723467-24188680-3405-11eb-9519-342ffb588f24.png" width="32%"/>
-  <img src="https://user-images.githubusercontent.com/39147811/100723480-2b3f9480-3405-11eb-8dda-572a4419fa94.png" width="32%"/>
+  <img src="https://user-images.githubusercontent.com/39147811/100723947-b1f47180-3405-11eb-9494-165cee95dc21.png" width="25%"/>
+  <img src="https://user-images.githubusercontent.com/39147811/100723975-b882e900-3405-11eb-96d7-1370088ef476.png" width="25%"/>
+  <img src="https://user-images.githubusercontent.com/39147811/100723993-bd479d00-3405-11eb-897d-18580f58898f.png" width="25%"/>
 </div>
 <br><br>
 
